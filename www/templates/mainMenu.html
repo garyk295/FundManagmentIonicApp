@@ -1,0 +1,32 @@
+<ion-view>
+  <ion-header-bar class="bar bar-header bar-royal">
+    <h1 class="title pull-left"></h1>
+    <button class="button button-clear button-positive">{{balance}}</button>
+    <button class="button button-clear button-positive" ng-click="logout()">Logout</button>
+  </ion-header-bar>
+      <ion-content scroll="false">
+        <section class = "home-container">
+          <div class = "row primarySectionRoyal">
+            <div class = "col text-center">
+              <button class="button button-clear button-massiveWhite" ng-click="placeOrder()">
+                Place Order
+              </button>
+            </div>
+          </div>
+          <div class = "row primarySectionBalanced">
+            <div class = "col text-center">
+              <button class="button button-clear button-massiveWhite">
+                Order History
+              </button>
+            </div>
+          </div>
+          <div class = "row primarySectionAssertive">
+            <div class = "col text-center">
+              <button class="button button-clear button-massiveWhite">
+                Add Funds
+              </button>
+            </div>
+          </div>
+      </section>
+  </ion-content>
+</ion-view>
